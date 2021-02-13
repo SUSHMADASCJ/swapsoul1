@@ -1,0 +1,45 @@
+img{
+    width:100%;
+}
+.btn{
+    border:3px solid white;
+    color:white;
+    width:220px;
+    height:60px;
+    margin-top:-530px;
+    margin-left:72px;
+    background-color:transparent;
+}
+#btn1{
+    border:3px solid white;
+    color:white;
+    width:220px;
+    height:60px;
+    margin-top:-330px;
+    margin-left:432px;
+    background-color:transparent;  
+}
+#btn1:hover{
+    background-color: white;
+    color:black;
+}
+
+@media screen and (max-width: 800px) {
+  .btn  {
+    width: 130px;
+    margin-top:-300px;
+    margin-left:20px;
+    height:30px;
+    font-size:10px;
+  }
+  #btn1  {
+    width: 130px;
+    margin-top:-250px;
+    margin-left:270px;
+    height:30px;
+    font-size:10px;
+    }
+}
+
+
+
